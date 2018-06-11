@@ -1,12 +1,11 @@
 // Header of the test script
 
-#include <rclcpp/rclcpp.hpp>
 class TestExample
 {
 public:
-  TestExample();
+  TestExample(int index);
   int getIndex();
 
 private:
-  int index;
-}
+  int index_;
+};

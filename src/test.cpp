@@ -1,12 +1,12 @@
 // Body of the test script
 
 #include "test.h"
-TestExample::TestExample()
+TestExample::TestExample(int index)
 {
-  index = 0;
+  index_ = index;
 }
 
 int TestExample::getIndex()
 {
-  return index;
+  return index_;
 }
